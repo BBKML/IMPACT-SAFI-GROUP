@@ -1,0 +1,1288 @@
+# PROMPT MAÎTRE — CONCEPTION DU SITE WEB PREMIUM D'IMPACT SAFI GROUP
+
+## 1. TON RÔLE
+
+Tu es à la fois :
+
+* un directeur artistique digital senior ;
+* un UX/UI designer expert en sites institutionnels premium ;
+* un expert en branding ;
+* un expert en expérience utilisateur ;
+* un développeur web senior ;
+* un consultant en transformation digitale ;
+* un expert en sites corporate modernes ;
+* un spécialiste des interfaces animées et interactives.
+
+Ta mission est de concevoir une **maquette/prototype web premium, moderne, crédible et impressionnant** pour l'entreprise **IMPACT SAFI GROUP (ISG)**, une entreprise ivoirienne orientée conseil, accompagnement, incubation, accélération, innovation et transformation digitale.
+
+L'objectif principal n'est PAS de produire un simple site vitrine.
+
+L'objectif est de créer une **véritable vitrine digitale institutionnelle capable de positionner IMPACT SAFI GROUP comme un acteur moderne de l'innovation, de l'entrepreneuriat et de l'accompagnement des entreprises en Côte d'Ivoire.**
+
+Le résultat doit pouvoir être présenté à la direction de l'entreprise comme une **proposition de transformation digitale** afin de maximiser les chances d'obtenir le contrat de réalisation du site.
+
+---
+
+# 2. INFORMATIONS PUBLIQUES DE BASE
+
+Utilise uniquement comme point de départ les informations publiques suivantes.
+
+Entreprise :
+
+**IMPACT SAFI GROUP**
+
+Sigle :
+
+**ISG**
+
+Localisation :
+
+**Korhogo, Côte d'Ivoire**
+
+Création :
+
+**2022**
+
+Positionnement public :
+
+**Incubateur – Accélérateur de performances**
+
+Secteur :
+
+**Conseil et services aux entreprises**
+
+Slogan communiqué publiquement :
+
+**« Une infinie innovation pour votre satisfaction ! »**
+
+Axes d'activité identifiés publiquement :
+
+* conseil ;
+* accompagnement des entreprises ;
+* incubation ;
+* accélération ;
+* formation ;
+* renforcement des capacités ;
+* transformation digitale ;
+* administration digitale ;
+* gestion électronique de documents ;
+* marketing numérique ;
+* accompagnement entrepreneurial.
+
+Certains programmes/initiatives associés publiquement à ISG comprennent notamment :
+
+* IMPACT HERITAGE ;
+* PIKO ;
+* SAFE+.
+
+IMPORTANT :
+
+Ces informations doivent être considérées comme des **informations de travail à vérifier avec le client**.
+
+Ne jamais inventer :
+
+* chiffres ;
+* noms de clients ;
+* partenaires ;
+* certifications ;
+* réalisations ;
+* témoignages ;
+* noms de dirigeants ;
+* coordonnées ;
+* statistiques ;
+* dates ;
+* résultats.
+
+Lorsqu'une information manque, utiliser un contenu provisoire clairement identifiable comme :
+
+**[CONTENU À VALIDER PAR ISG]**
+
+ou :
+
+**[CHIFFRE À CONFIRMER]**
+
+Ne présente jamais une information inventée comme un fait réel.
+
+---
+
+# 3. OBJECTIF BUSINESS DU SITE
+
+Le site doit permettre à ISG de :
+
+1. présenter clairement son identité ;
+2. renforcer sa crédibilité ;
+3. présenter ses expertises ;
+4. présenter ses programmes ;
+5. attirer entrepreneurs et porteurs de projets ;
+6. attirer des entreprises clientes ;
+7. attirer des partenaires ;
+8. valoriser ses réalisations ;
+9. communiquer sur ses événements ;
+10. recevoir des demandes de contact ;
+11. recevoir des candidatures à ses programmes ;
+12. développer sa visibilité digitale ;
+13. améliorer son référencement ;
+14. créer une véritable présence institutionnelle.
+
+Le site doit transmettre immédiatement :
+
+**Innovation + Crédibilité + Impact + Professionnalisme + Proximité + Ambition africaine**
+
+---
+
+# 4. POSITIONNEMENT CRÉATIF
+
+Ne crée surtout pas un site administratif classique.
+
+Évite le style :
+
+* vieux site institutionnel ;
+* beaucoup de texte ;
+* blocs carrés sans personnalité ;
+* couleurs excessives ;
+* animations inutiles ;
+* design générique de template.
+
+Le concept créatif doit être :
+
+# CORPORATE × INNOVATION × AFRICAN BUSINESS × IMPACT
+
+L'utilisateur doit avoir l'impression de visiter le site d'une organisation ambitieuse, moderne et tournée vers l'avenir.
+
+---
+
+# 5. IDENTITÉ VISUELLE
+
+Le design doit s'inspirer de l'identité visuelle existante d'ISG.
+
+Palette principale :
+
+* vert foncé ;
+* vert clair ;
+* gris ;
+* blanc.
+
+Utiliser une palette élégante et professionnelle.
+
+Le vert doit représenter :
+
+* croissance ;
+* innovation ;
+* développement ;
+* confiance ;
+* impact.
+
+Le design doit être lumineux, respirant et premium.
+
+Ne pas utiliser trop de couleurs.
+
+Prévoir une couleur d'accent cohérente pour les boutons et éléments interactifs.
+
+---
+
+# 6. DIRECTION ARTISTIQUE
+
+Créer une direction artistique contemporaine avec :
+
+* grandes typographies ;
+* espaces blancs généreux ;
+* compositions asymétriques élégantes ;
+* grandes images ;
+* photos africaines professionnelles ;
+* entrepreneurs africains ;
+* équipes en réunion ;
+* innovation ;
+* technologie ;
+* formation ;
+* artisanat lorsque pertinent ;
+* graphiques et éléments abstraits ;
+* formes organiques inspirées du symbole de l'infini du logo.
+
+Les visuels doivent représenter une Afrique :
+
+* moderne ;
+* ambitieuse ;
+* professionnelle ;
+* entrepreneuriale ;
+* technologique ;
+* dynamique.
+
+Éviter les clichés visuels africains.
+
+---
+
+# 7. TYPOGRAPHIE
+
+Utiliser une typographie moderne et professionnelle.
+
+Exemples possibles :
+
+* Inter ;
+* Manrope ;
+* Plus Jakarta Sans ;
+* Sora ;
+* DM Sans.
+
+Choisir une combinaison cohérente.
+
+Les titres doivent être forts et modernes.
+
+Les paragraphes doivent rester très lisibles.
+
+---
+
+# 8. PAGE D'ACCUEIL
+
+Créer une homepage spectaculaire.
+
+## HERO
+
+Créer une section Hero plein écran.
+
+Utiliser une grande image ou une vidéo institutionnelle en arrière-plan.
+
+Texte principal :
+
+# TRANSFORMER LES IDÉES EN IMPACT.
+
+Sous-titre :
+
+**IMPACT SAFI GROUP accompagne les entrepreneurs, entreprises et porteurs de projets dans leur développement, leur transformation et leur recherche de nouvelles opportunités.**
+
+Afficher également le slogan :
+
+**« Une infinie innovation pour votre satisfaction ! »**
+
+Boutons :
+
+**Découvrir ISG**
+
+**Démarrer un projet**
+
+Ajouter une animation subtile.
+
+Exemple :
+
+* apparition progressive des textes ;
+* déplacement léger du background ;
+* effet parallax ;
+* formes abstraites animées.
+
+Ne pas exagérer.
+
+---
+
+# 9. SECTION INTRODUCTION
+
+Créer une section :
+
+## NOUS TRANSFORMONS LES POSSIBILITÉS EN OPPORTUNITÉS.
+
+Présenter brièvement ISG.
+
+Utiliser une mise en page :
+
+texte à gauche + image à droite.
+
+Ajouter un bouton :
+
+**Découvrir notre histoire**
+
+---
+
+# 10. SECTION CHIFFRES CLÉS
+
+Créer une section très visuelle.
+
+Exemples de blocs :
+
+**2022**
+Année de création
+
+**[XX]**
+Entrepreneurs accompagnés
+
+**[XX]**
+Projets accompagnés
+
+**[XX]**
+Partenaires
+
+IMPORTANT :
+
+Les chiffres non confirmés doivent être affichés :
+
+**[XX]**
+
+ou
+
+**[À CONFIRMER]**
+
+Ne jamais inventer.
+
+Créer des compteurs animés au scroll.
+
+---
+
+# 11. SECTION EXPERTISES
+
+Titre :
+
+# NOS EXPERTISES
+
+Créer 6 cartes premium.
+
+### 01 — CONSEIL & STRATÉGIE
+
+Accompagnement stratégique des entreprises et organisations.
+
+### 02 — INCUBATION
+
+Accompagnement des porteurs de projets et entrepreneurs.
+
+### 03 — ACCÉLÉRATION
+
+Aider les projets à franchir un nouveau niveau de développement.
+
+### 04 — TRANSFORMATION DIGITALE
+
+Accompagner les organisations dans leur transformation numérique.
+
+### 05 — FORMATION & RENFORCEMENT DES CAPACITÉS
+
+Développer les compétences nécessaires à la performance.
+
+### 06 — ACCOMPAGNEMENT ENTREPRENEURIAL
+
+Accompagner les entrepreneurs dans la structuration et le développement de leurs activités.
+
+Chaque carte doit avoir :
+
+* icône ;
+* numéro ;
+* titre ;
+* courte description ;
+* bouton ou lien ;
+* animation au survol.
+
+---
+
+# 12. SECTION NOTRE APPROCHE
+
+Créer une timeline horizontale ou verticale.
+
+Titre :
+
+# DE L'IDÉE À L'IMPACT
+
+Étapes :
+
+01 — IDÉATION
+
+02 — DIAGNOSTIC
+
+03 — INCUBATION
+
+04 — ACCÉLÉRATION
+
+05 — ACCOMPAGNEMENT
+
+06 — IMPACT
+
+Créer une animation progressive lorsque l'utilisateur descend dans la page.
+
+---
+
+# 13. SECTION INCUBATION
+
+Créer une section très forte.
+
+Titre :
+
+# VOTRE IDÉE MÉRITE DE DEVENIR UNE RÉALITÉ.
+
+Présenter ISG comme un environnement permettant aux porteurs de projets de :
+
+* structurer leurs idées ;
+* développer leurs compétences ;
+* bénéficier de coaching ;
+* bénéficier de mentorat ;
+* renforcer leurs capacités ;
+* accéder à des opportunités ;
+* rechercher des financements.
+
+Bouton :
+
+**Rejoindre notre programme**
+
+---
+
+# 14. SECTION PROGRAMMES
+
+Créer une section :
+
+# NOS PROGRAMMES & INITIATIVES
+
+Créer des cartes premium.
+
+## IMPACT HERITAGE
+
+Présenter le programme autour de :
+
+* artisanat ;
+* patrimoine ;
+* savoir-faire ;
+* accompagnement ;
+* développement économique.
+
+Utiliser les informations publiques disponibles uniquement comme base.
+
+Afficher clairement les éléments à confirmer.
+
+## PIKO
+
+Présenter PIKO comme une initiative/startup technologique associée à l'écosystème ISG.
+
+Ne pas inventer ses fonctionnalités.
+
+## SAFE+
+
+Présenter SAFE+ comme une initiative à découvrir.
+
+Ne pas inventer de détails non confirmés.
+
+Chaque carte doit avoir :
+
+**Découvrir le programme →**
+
+---
+
+# 15. PAGE IMPACT HERITAGE
+
+Créer une page dédiée.
+
+Structure :
+
+Hero
+
+Présentation
+
+Objectifs
+
+Public cible
+
+Programme d'accompagnement
+
+Étapes
+
+Galerie
+
+Résultats
+
+Partenaires
+
+Candidature
+
+IMPORTANT :
+
+Tout chiffre ou résultat non confirmé doit être marqué :
+
+**[À CONFIRMER]**
+
+---
+
+# 16. SECTION IMPACT
+
+Créer une section très visuelle.
+
+Titre :
+
+# NOTRE IMPACT
+
+Afficher des indicateurs dynamiques.
+
+Exemples :
+
+* entrepreneurs accompagnés ;
+* projets accompagnés ;
+* formations organisées ;
+* emplois créés ;
+* partenaires ;
+* programmes ;
+* communautés touchées.
+
+Tous les chiffres doivent être des placeholders tant qu'ils ne sont pas confirmés.
+
+---
+
+# 17. SECTION PROJETS / RÉALISATIONS
+
+Créer :
+
+# NOS RÉALISATIONS
+
+Format :
+
+grille de projets avec grandes images.
+
+Chaque projet possède :
+
+* image ;
+* nom ;
+* catégorie ;
+* courte description ;
+* année ;
+* bouton « Découvrir ».
+
+Créer une page détail pour chaque projet.
+
+---
+
+# 18. SECTION ACTUALITÉS
+
+Créer :
+
+# ACTUALITÉS & OPPORTUNITÉS
+
+Afficher :
+
+* articles ;
+* événements ;
+* appels à candidatures ;
+* formations ;
+* annonces ;
+* projets.
+
+Créer des cartes modernes avec :
+
+* image ;
+* catégorie ;
+* date ;
+* titre ;
+* résumé ;
+* bouton.
+
+Créer une page :
+
+**Actualités**
+
+et une page :
+
+**Détail d'une actualité**
+
+---
+
+# 19. SECTION ÉVÉNEMENTS
+
+Créer un calendrier moderne.
+
+Chaque événement doit afficher :
+
+* date ;
+* titre ;
+* lieu ;
+* description ;
+* image ;
+* bouton inscription.
+
+Prévoir un bouton :
+
+**Participer**
+
+---
+
+# 20. SECTION ÉQUIPE
+
+Créer :
+
+# UNE ÉQUIPE ENGAGÉE POUR L'IMPACT
+
+Cartes :
+
+photo
+
+nom
+
+fonction
+
+LinkedIn
+
+IMPORTANT :
+
+Ne mettre aucun nom réel sans validation.
+
+Utiliser :
+
+**[Nom du membre]**
+
+**[Fonction]**
+
+---
+
+# 21. SECTION PARTENAIRES
+
+Créer :
+
+# ILS NOUS FONT CONFIANCE
+
+Afficher des logos uniquement lorsqu'ils sont confirmés.
+
+Pour la maquette :
+
+**[LOGO PARTENAIRE]**
+
+Ne jamais inventer de partenaires.
+
+Créer une animation subtile de défilement horizontal.
+
+---
+
+# 22. SECTION TÉMOIGNAGES
+
+Créer une section :
+
+# ILS PARLENT DE LEUR EXPÉRIENCE
+
+Utiliser des placeholders :
+
+**« Témoignage à intégrer après validation par ISG. »**
+
+Ne jamais inventer de témoignage attribué à une personne réelle.
+
+---
+
+# 23. SECTION CONTACT
+
+Créer une section premium :
+
+# PARLONS DE VOTRE PROJET.
+
+Formulaire :
+
+Nom
+
+Entreprise
+
+Téléphone
+
+Email
+
+Type de demande
+
+Message
+
+Bouton :
+
+**ENVOYER MA DEMANDE**
+
+Types de demandes :
+
+* Conseil
+* Incubation
+* Formation
+* Transformation digitale
+* Partenariat
+* Programme
+* Autre
+
+Ajouter :
+
+* téléphone ;
+* email ;
+* localisation ;
+* WhatsApp ;
+* réseaux sociaux.
+
+Utiliser des placeholders pour les coordonnées non confirmées.
+
+---
+
+# 24. CANDIDATURE AUX PROGRAMMES
+
+Créer un parcours utilisateur.
+
+Bouton :
+
+**POSTULER À UN PROGRAMME**
+
+Formulaire :
+
+Informations personnelles
+
+Entreprise/projet
+
+Description du projet
+
+Secteur d'activité
+
+Stade du projet
+
+Besoins
+
+Pièces jointes
+
+Consentement
+
+Bouton :
+
+**ENVOYER MA CANDIDATURE**
+
+---
+
+# 25. FOOTER
+
+Créer un footer très premium.
+
+Logo
+
+Courte présentation
+
+Navigation
+
+Expertises
+
+Programmes
+
+Actualités
+
+Contact
+
+Réseaux sociaux
+
+Newsletter
+
+Mentions légales
+
+Politique de confidentialité
+
+Copyright :
+
+**© 2026 IMPACT SAFI GROUP. Tous droits réservés.**
+
+---
+
+# 26. NAVIGATION
+
+Créer un header sticky.
+
+Menu :
+
+**Accueil**
+
+**À propos**
+
+**Expertises**
+
+**Programmes**
+
+**Impact**
+
+**Actualités**
+
+**Contact**
+
+Bouton CTA :
+
+**Démarrer un projet**
+
+Sur mobile :
+
+menu hamburger animé.
+
+---
+
+# 27. ANIMATIONS
+
+Les animations doivent être élégantes.
+
+Utiliser :
+
+* fade-in ;
+* slide-up ;
+* reveal on scroll ;
+* counters ;
+* hover effects ;
+* parallax léger ;
+* transitions ;
+* navigation fluide ;
+* micro-interactions ;
+* animations de cartes ;
+* transitions de pages.
+
+IMPORTANT :
+
+Les animations doivent améliorer l'expérience.
+
+Éviter les animations lourdes ou distrayantes.
+
+Le site doit rester rapide.
+
+---
+
+# 28. RESPONSIVE DESIGN
+
+Le site doit être conçu Mobile First.
+
+Tester :
+
+* smartphone ;
+* tablette ;
+* laptop ;
+* desktop large.
+
+Aucun élément ne doit déborder.
+
+La navigation mobile doit être parfaitement fonctionnelle.
+
+Les animations doivent être réduites sur les appareils faibles.
+
+---
+
+# 29. SEO
+
+Préparer :
+
+* title ;
+* meta description ;
+* Open Graph ;
+* Twitter Card ;
+* données structurées ;
+* sitemap ;
+* robots.txt ;
+* URLs propres.
+
+Mots-clés potentiels :
+
+* Impact Safi Group ;
+* ISG Korhogo ;
+* incubateur Korhogo ;
+* incubation Côte d'Ivoire ;
+* accompagnement entrepreneurial ;
+* conseil entreprise Côte d'Ivoire ;
+* transformation digitale Côte d'Ivoire ;
+* innovation Korhogo ;
+* startup Côte d'Ivoire.
+
+Ne pas faire de keyword stuffing.
+
+---
+
+# 30. ACCESSIBILITÉ
+
+Respecter :
+
+* contraste ;
+* navigation clavier ;
+* textes alternatifs ;
+* boutons accessibles ;
+* labels des formulaires ;
+* tailles de texte lisibles ;
+* préférence reduced-motion.
+
+---
+
+# 31. BACK-OFFICE À PRÉVOIR
+
+Même si tu réalises d'abord une maquette frontend, pense dès maintenant à une architecture permettant ensuite un véritable back-office.
+
+Le futur administrateur doit pouvoir gérer :
+
+### CONTENU
+
+* pages ;
+* textes ;
+* images ;
+* vidéos.
+
+### SERVICES
+
+* création ;
+* modification ;
+* suppression.
+
+### PROGRAMMES
+
+* création ;
+* modification ;
+* publication.
+
+### PROJETS
+
+* création ;
+* galerie ;
+* résultats ;
+* partenaires.
+
+### ACTUALITÉS
+
+* création ;
+* catégories ;
+* images ;
+* publication.
+
+### ÉVÉNEMENTS
+
+* création ;
+* inscriptions.
+
+### ÉQUIPE
+
+* membres ;
+* fonctions ;
+* réseaux sociaux.
+
+### PARTENAIRES
+
+* logos ;
+* liens.
+
+### GALERIE
+
+* photos ;
+* vidéos.
+
+### CANDIDATURES
+
+* consultation ;
+* statut ;
+* téléchargement des pièces.
+
+### CONTACTS
+
+* messages ;
+* statut ;
+* réponse.
+
+### NEWSLETTER
+
+* abonnés.
+
+---
+
+# 32. TECHNOLOGIES
+
+Si tu dois produire le prototype fonctionnel :
+
+### Frontend
+
+Laravel + Inertia/Vue ou React
+
+### Styling
+
+Tailwind CSS
+
+### Animations
+
+GSAP ou Framer Motion selon la stack choisie.
+
+### Backend
+
+Laravel
+
+### Administration
+
+Filament
+
+### Base de données
+
+MySQL ou PostgreSQL.
+
+Si le prototype doit seulement servir à présenter la maquette, privilégie d'abord la qualité visuelle et UX.
+
+---
+
+# 33. ARCHITECTURE TECHNIQUE
+
+Préparer une architecture évolutive.
+
+Exemple :
+
+app/
+resources/
+routes/
+database/
+public/
+storage/
+
+Prévoir une séparation claire entre :
+
+* contenu ;
+* logique métier ;
+* composants UI ;
+* administration ;
+* formulaires ;
+* médias.
+
+Le site doit pouvoir évoluer sans devoir être entièrement réécrit.
+
+---
+
+# 34. PERFORMANCE
+
+Optimiser :
+
+* images WebP/AVIF ;
+* lazy loading ;
+* responsive images ;
+* code splitting ;
+* minification ;
+* cache ;
+* chargement différé des vidéos ;
+* limitation des bibliothèques inutiles.
+
+Objectif :
+
+Site rapide même avec une connexion internet moyenne.
+
+---
+
+# 35. RÈGLE ABSOLUE SUR LE CONTENU
+
+Ne jamais inventer une information institutionnelle.
+
+Si une donnée n'est pas disponible :
+
+utiliser :
+
+**[À CONFIRMER]**
+
+Exemple :
+
+❌ « 150 entrepreneurs accompagnés »
+
+si ce chiffre n'est pas confirmé.
+
+Utiliser :
+
+✅ « [XX] entrepreneurs accompagnés »
+
+---
+
+# 36. RÈGLE ABSOLUE SUR LES IMAGES
+
+Utiliser des images cohérentes avec :
+
+* entrepreneuriat africain ;
+* innovation ;
+* entreprises ;
+* formation ;
+* technologie ;
+* artisanat ;
+* collaboration ;
+* leadership.
+
+Ne pas utiliser des images qui donnent l'impression d'une entreprise étrangère sans rapport avec l'Afrique.
+
+Lorsque les vraies photos d'ISG seront disponibles, prévoir leur remplacement sans modifier la structure du site.
+
+---
+
+# 37. EXPÉRIENCE DE DÉMONSTRATION
+
+Le site doit être pensé pour une présentation devant le dirigeant.
+
+Créer donc un parcours très impressionnant :
+
+Accueil
+
+↓
+
+Présentation
+
+↓
+
+Expertises
+
+↓
+
+Incubation
+
+↓
+
+Programmes
+
+↓
+
+Impact
+
+↓
+
+Réalisations
+
+↓
+
+Actualités
+
+↓
+
+Contact
+
+À chaque étape, le visiteur doit comprendre davantage la valeur d'ISG.
+
+---
+
+# 38. ÉLÉMENT DIFFÉRENCIATEUR
+
+Créer une animation ou une représentation visuelle autour de l'idée :
+
+# IDÉE → ACCOMPAGNEMENT → CROISSANCE → IMPACT
+
+Cette séquence doit devenir un élément visuel signature du site.
+
+---
+
+# 39. CE QUE JE VEUX COMME RÉSULTAT
+
+Je ne veux pas un template générique.
+
+Je veux une expérience digitale personnalisée pour :
+
+# IMPACT SAFI GROUP
+
+Le rendu doit être suffisamment professionnel pour pouvoir être présenté à la direction comme une **maquette commerciale de haut niveau**.
+
+Le site doit donner envie au dirigeant de dire :
+
+> « Nous voulons exactement ce site pour notre entreprise. »
+
+---
+
+# 40. LIVRABLES
+
+Produis :
+
+1. architecture complète du site ;
+2. design system ;
+3. palette de couleurs ;
+4. typographie ;
+5. composants UI ;
+6. homepage complète ;
+7. pages internes ;
+8. responsive mobile ;
+9. animations ;
+10. parcours utilisateur ;
+11. formulaires ;
+12. espace actualités ;
+13. espace programmes ;
+14. espace candidatures ;
+15. structure du futur back-office ;
+16. contenu provisoire clairement marqué ;
+17. recommandations UX ;
+18. recommandations SEO.
+
+---
+
+# 41. ORDRE DE TRAVAIL OBLIGATOIRE
+
+Ne génère pas tout de manière désordonnée.
+
+Travaille dans cet ordre :
+
+### PHASE 1
+
+Analyse de l'identité et du positionnement d'ISG.
+
+### PHASE 2
+
+Création du concept créatif.
+
+### PHASE 3
+
+Création du design system.
+
+### PHASE 4
+
+Création de l'architecture du site.
+
+### PHASE 5
+
+Création de la homepage.
+
+### PHASE 6
+
+Création des pages internes.
+
+### PHASE 7
+
+Création de la version mobile.
+
+### PHASE 8
+
+Ajout des animations.
+
+### PHASE 9
+
+Préparation de l'architecture dynamique.
+
+### PHASE 10
+
+Audit final UX/UI.
+
+---
+
+# 42. IMPORTANT POUR CURSOR
+
+Si tu es Cursor, ne te contente pas d'expliquer ce qu'il faudrait faire.
+
+Analyse le projet existant.
+
+Si le projet est vide, initialise proprement l'architecture adaptée.
+
+Crée réellement les fichiers nécessaires.
+
+Construis les composants réutilisables.
+
+Teste les routes.
+
+Teste le responsive.
+
+Corrige les erreurs.
+
+Ne laisse pas de sections cassées.
+
+Si une information manque, utilise un placeholder clairement identifiable.
+
+Ne demande pas de confirmation pour chaque petite décision de design : prends des décisions professionnelles cohérentes.
+
+---
+
+# 43. IMPORTANT POUR GEMINI / CLAUDE
+
+Si tu ne peux pas réellement coder dans ton environnement, produis au minimum :
+
+* une architecture complète ;
+* les spécifications UI ;
+* les textes de démonstration ;
+* les composants ;
+* les prompts d'images ;
+* les animations recommandées ;
+* les écrans ;
+* les parcours utilisateurs ;
+* les spécifications techniques.
+
+Le résultat doit être directement exploitable par un développeur.
+
+---
+
+# 44. CRITÈRE FINAL DE QUALITÉ
+
+Avant de considérer le travail terminé, pose-toi ces questions :
+
+* Le site ressemble-t-il à une entreprise premium ?
+* Est-il clairement identifiable comme IMPACT SAFI GROUP ?
+* Le positionnement incubation/innovation est-il immédiatement compréhensible ?
+* Le site donne-t-il confiance ?
+* Le site est-il adapté à la Côte d'Ivoire et au contexte africain ?
+* Le site est-il moderne sans être excessif ?
+* Les animations sont-elles élégantes ?
+* Le site fonctionne-t-il parfaitement sur mobile ?
+* Les contenus non confirmés sont-ils clairement identifiés ?
+* Le parcours vers le contact/candidature est-il évident ?
+* Le site peut-il évoluer vers un véritable CMS Laravel + Filament ?
+* Peut-on remplacer facilement les contenus provisoires par les informations officielles d'ISG ?
+
+Si une réponse est NON, améliore le résultat avant de considérer le projet terminé.
+
+# OBJECTIF FINAL
+
+Créer une **expérience digitale institutionnelle premium pour IMPACT SAFI GROUP**, suffisamment convaincante pour servir de démonstration commerciale et permettre au développeur de transformer ensuite cette maquette en véritable plateforme web dynamique avec Laravel + Filament.

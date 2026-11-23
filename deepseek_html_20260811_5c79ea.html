@@ -1,0 +1,2197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IMPACT SAFI GROUP — Une infinie innovation pour votre satisfaction</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --forest: #0E3B2C;
+    --forest-2: #123F30;
+    --green: #34C77B;
+    --green-soft: #BFE8D2;
+    --cream: #F6F7F3;
+    --white: #FFFFFF;
+    --ink: #12201A;
+    --gray: #5C6B62;
+    --line: rgba(18, 32, 26, 0.10);
+    --line-onDark: rgba(255, 255, 255, 0.14);
+    --radius: 18px;
+    --ease: cubic-bezier(.22, .61, .36, 1);
+    --whatsapp: #25D366;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  h1, h2, h3, .display {
+    font-family: 'Sora', sans-serif;
+    letter-spacing: -0.02em;
+    margin: 0;
+  }
+  .mono {
+    font-family: 'IBM Plex Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  p {
+    line-height: 1.6;
+    color: var(--gray);
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  img {
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+  @media(max-width:640px) {
+    .wrap {
+      padding: 0 16px;
+    }
+  }
+
+  /* ===== reveal ===== */
+  [data-reveal] {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity .8s var(--ease), transform .8s var(--ease);
+  }
+  [data-reveal].is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    [data-reveal] {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  /* ===== nav ===== */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 12px 0;
+    transition: background .4s var(--ease), padding .4s var(--ease), box-shadow .4s var(--ease);
+  }
+  header.scrolled {
+    background: rgba(246, 247, 243, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 10px 0;
+    box-shadow: 0 1px 0 var(--line);
+  }
+  header.scrolled .logo {
+    color: var(--ink);
+  }
+  header.scrolled .hamburger span {
+    background: var(--ink);
+  }
+  header.scrolled .nav-links a {
+    color: var(--ink);
+  }
+  header.scrolled .btn-outline {
+    border-color: var(--line);
+    color: var(--ink);
+  }
+
+  nav.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Sora';
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--white);
+    z-index: 10;
+  }
+  .logo img {
+    height: 35px;
+    width: auto;
+    display: block;
+  }
+  .logo svg {
+    width: 35px;
+    height: 35px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-links a {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.85);
+    position: relative;
+    padding-bottom: 2px;
+    transition: color 0.3s ease;
+  }
+  .nav-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 1px;
+    background: var(--green);
+    transition: width .3s var(--ease);
+  }
+  .nav-links a:hover::after {
+    width: 100%;
+  }
+  .nav-cta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Inter';
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: transform .3s var(--ease), background .3s var(--ease), color .3s var(--ease), border-color .3s var(--ease);
+  }
+  .btn-primary {
+    background: var(--forest);
+    color: var(--white);
+  }
+  .btn-primary:hover {
+    background: var(--green);
+    transform: translateY(-2px);
+  }
+  .btn-outline {
+    border-color: rgba(255, 255, 255, 0.35);
+    color: var(--white);
+  }
+  .btn-outline:hover {
+    border-color: var(--green);
+    transform: translateY(-2px);
+  }
+  .btn-light {
+    background: var(--white);
+    color: var(--forest);
+  }
+  .btn-light:hover {
+    background: var(--green);
+    color: var(--white);
+    transform: translateY(-2px);
+  }
+
+  /* ===== HAMBURGER MENU ===== */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    z-index: 10;
+  }
+  .hamburger span {
+    display: block;
+    width: 25px;
+    height: 2.5px;
+    background: var(--white);
+    border-radius: 3px;
+    transition: all .3s var(--ease);
+  }
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  /* ===== MOBILE MENU OVERLAY ===== */
+  .mobile-menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(14, 59, 44, 0.98);
+    backdrop-filter: blur(10px);
+    z-index: 99;
+    padding: 80px 32px 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    opacity: 0;
+    transition: opacity .4s var(--ease);
+  }
+  .mobile-menu-overlay.active {
+    display: flex;
+    opacity: 1;
+  }
+  .mobile-menu-overlay a {
+    color: var(--white);
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Sora';
+    transition: color .3s ease;
+  }
+  .mobile-menu-overlay a:hover {
+    color: var(--green);
+  }
+  .mobile-menu-overlay .btn {
+    font-size: 16px;
+    padding: 14px 32px;
+  }
+
+  /* ===== BOUTON WHATSAPP FLOTTANT ===== */
+  .whatsapp-float {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: var(--whatsapp);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+    transition: transform .3s var(--ease), box-shadow .3s var(--ease);
+    cursor: pointer;
+    border: none;
+  }
+  .whatsapp-float:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 30px rgba(37, 211, 102, 0.6);
+  }
+  .whatsapp-float svg {
+    width: 28px;
+    height: 28px;
+    fill: white;
+  }
+
+  /* ===== HERO SLIDER ===== */
+  .hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+
+  .hero-slider {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+
+  .hero-slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 1.2s var(--ease);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .hero-slide.active {
+    opacity: 1;
+  }
+
+  .hero-slide::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg,
+        rgba(14, 59, 44, 0.92) 0%,
+        rgba(10, 42, 32, 0.75) 20%,
+        rgba(14, 59, 44, 0.60) 50%);
+  }
+
+  /* Images du slider */
+  .slide-1 {
+    background-image: url('1.png');
+  }
+  .slide-2 {
+    background-image: url('2.png');
+  }
+  .slide-3 {
+    background-image: url('3.png');
+  }
+  .slide-4 {
+    background-image: url('4.png');
+  }
+
+  /* Indicateurs de diapositives */
+  .hero-dots {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    display: flex;
+    gap: 10px;
+  }
+
+  .hero-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s var(--ease);
+    padding: 0;
+  }
+
+  .hero-dot.active {
+    background: var(--green);
+    width: 30px;
+    border-radius: 5px;
+  }
+
+  .hero-dot:hover {
+    background: var(--green-soft);
+    transform: scale(1.2);
+  }
+
+  .hero-inner {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .hero-content {
+    max-width: 640px;
+  }
+
+  .eyebrow {
+    color: var(--green-soft);
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 11px;
+  }
+  .eyebrow::before {
+    content: '';
+    width: 26px;
+    height: 1px;
+    background: var(--green-soft);
+  }
+  .hero h1 {
+    font-size: clamp(32px, 5.2vw, 60px);
+    font-weight: 800;
+    line-height: 1.05;
+    color: var(--white);
+  }
+  .hero h1 em {
+    font-style: normal;
+    color: var(--green);
+  }
+  .hero p.lead {
+    color: rgba(255, 255, 255, .78);
+    font-size: 16px;
+    max-width: 520px;
+    margin-top: 20px;
+  }
+  .hero-actions {
+    display: flex;
+    gap: 14px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  .hero-slogan {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line-onDark);
+    color: rgba(255, 255, 255, .65);
+    font-style: italic;
+    font-family: 'Sora';
+    font-size: 14px;
+  }
+  .infinity-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .infinity-svg {
+    width: 100%;
+    max-width: 380px;
+  }
+  .infinity-path {
+    fill: none;
+    stroke: var(--green);
+    stroke-width: 2.5;
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: draw 3.2s var(--ease) forwards .4s;
+  }
+  .infinity-path.dim {
+    stroke: rgba(255, 255, 255, .22);
+    stroke-dasharray: none;
+    stroke-dashoffset: 0;
+    animation: none;
+  }
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  .scroll-cue {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: rgba(255, 255, 255, .5);
+  }
+  .scroll-cue .line {
+    width: 1px;
+    height: 30px;
+    background: rgba(255, 255, 255, .35);
+    position: relative;
+    overflow: hidden;
+  }
+  .scroll-cue .line::after {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--green);
+    animation: cue 2s ease-in-out infinite;
+  }
+  @keyframes cue {
+    0% {
+      top: -100%;
+    }
+    60% {
+      top: 100%;
+    }
+    100% {
+      top: 100%;
+    }
+  }
+
+  /* ===== RESPONSIVE HERO ===== */
+  @media(max-width:900px) {
+    .hero-inner {
+      grid-template-columns: 1fr;
+      text-align: center;
+      gap: 30px;
+    }
+    .hero-content {
+      max-width: 100%;
+    }
+    .hero p.lead {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .hero-actions {
+      justify-content: center;
+    }
+    .eyebrow {
+      justify-content: center;
+      font-size: 10px;
+    }
+    .eyebrow::before {
+      display: none;
+    }
+    .infinity-wrap {
+      order: -1;
+      max-width: 180px;
+      margin: 0 auto;
+    }
+    .hero h1 {
+      font-size: clamp(28px, 6vw, 42px);
+    }
+    .hero p.lead {
+      font-size: 15px;
+    }
+    .hero-slogan {
+      font-size: 13px;
+      margin-top: 30px;
+      padding-top: 16px;
+    }
+    .scroll-cue {
+      bottom: 50px;
+    }
+  }
+
+  @media(max-width:640px) {
+    .hero {
+      padding-top: 70px;
+      padding-bottom: 40px;
+      min-height: 90vh;
+    }
+    .hero h1 {
+      font-size: 26px;
+    }
+    .hero p.lead {
+      font-size: 14px;
+      margin-top: 14px;
+    }
+    .hero-actions {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    .hero-actions .btn {
+      width: 100%;
+      justify-content: center;
+      padding: 12px 20px;
+      font-size: 14px;
+    }
+    .hero-slogan {
+      font-size: 12px;
+      margin-top: 24px;
+      padding-top: 14px;
+    }
+    .infinity-wrap {
+      max-width: 140px;
+    }
+    .scroll-cue {
+      bottom: 40px;
+    }
+    .scroll-cue .mono {
+      font-size: 10px;
+    }
+    .hero-dots {
+      bottom: 20px;
+    }
+    .hero-dot {
+      width: 8px;
+      height: 8px;
+    }
+    .hero-dot.active {
+      width: 24px;
+    }
+  }
+
+  /* ===== section basics ===== */
+  section {
+    padding: 80px 0;
+  }
+  @media(max-width:640px) {
+    section {
+      padding: 60px 0;
+    }
+  }
+
+  /* ===== SECTION HEAD CENTRÉ ===== */
+  .section-head-center {
+    text-align: center;
+    max-width: 780px;
+    margin: 0 auto 48px auto;
+    padding: 0 16px;
+  }
+  .section-head-center .mono {
+    color: var(--forest);
+    margin-bottom: 12px;
+    display: block;
+    font-size: 11px;
+  }
+  .section-head-center h2 {
+    font-size: clamp(24px, 3.4vw, 40px);
+    font-weight: 700;
+    line-height: 1.1;
+  }
+  .section-head-center p {
+    margin-top: 14px;
+    font-size: 15px;
+    color: var(--gray);
+  }
+
+  @media(max-width:640px) {
+    .section-head-center {
+      margin-bottom: 32px;
+    }
+    .section-head-center h2 {
+      font-size: 24px;
+    }
+    .section-head-center p {
+      font-size: 14px;
+    }
+  }
+
+  /* intro */
+  .intro {
+    background: var(--white);
+  }
+  .intro-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+  }
+  .intro-visual {
+    position: relative;
+    aspect-ratio: 4/5;
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .intro-visual img {
+    object-fit: cover;
+    opacity: .9;
+  }
+  .intro-visual .tag {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    right: 16px;
+    background: rgba(10, 42, 32, .80);
+    backdrop-filter: blur(6px);
+    color: #fff;
+    padding: 14px 16px;
+    border-radius: 12px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .intro h2 {
+    font-size: clamp(24px, 3vw, 34px);
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+  .placeholder {
+    color: #B0876B;
+    background: #FBF1EA;
+    padding: 1px 8px;
+    border-radius: 6px;
+    font-family: 'IBM Plex Mono';
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  @media(max-width:900px) {
+    .intro-grid {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+    .intro-visual {
+      aspect-ratio: 16/10;
+      max-height: 400px;
+    }
+  }
+  @media(max-width:640px) {
+    .intro-grid {
+      gap: 24px;
+    }
+    .intro h2 {
+      font-size: 22px;
+    }
+    .intro-visual .tag {
+      font-size: 11px;
+      padding: 10px 14px;
+    }
+  }
+
+  /* stats */
+  .stats {
+    background: var(--forest);
+    color: #fff;
+  }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--line-onDark);
+    border: 1px solid var(--line-onDark);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .stat {
+    background: var(--forest);
+    padding: 32px 20px;
+    text-align: center;
+  }
+  .stat .num {
+    font-family: 'Sora';
+    font-weight: 800;
+    font-size: clamp(28px, 4vw, 48px);
+    color: var(--green);
+  }
+  .stat .lbl {
+    margin-top: 8px;
+    color: rgba(255, 255, 255, .68);
+    font-size: 13px;
+  }
+
+  @media(max-width:800px) {
+    .stats-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .stat {
+      padding: 24px 16px;
+    }
+    .stat .num {
+      font-size: 30px;
+    }
+    .stat .lbl {
+      font-size: 12px;
+    }
+  }
+  @media(max-width:480px) {
+    .stat {
+      padding: 18px 12px;
+    }
+    .stat .num {
+      font-size: 24px;
+    }
+    .stat .lbl {
+      font-size: 11px;
+    }
+  }
+
+  /* expertises */
+  .expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .expertise-card {
+    background: var(--white);
+    padding: 30px 24px;
+    transition: background .35s var(--ease), transform .35s var(--ease);
+  }
+  .expertise-card:hover {
+    background: var(--forest);
+    transform: translateY(-2px);
+  }
+  .expertise-card:hover * {
+    color: #fff !important;
+  }
+  .expertise-card:hover .exp-num {
+    color: var(--green) !important;
+  }
+  .exp-num {
+    font-family: 'IBM Plex Mono';
+    color: var(--green-soft);
+    background: var(--forest);
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-size: 11px;
+    margin-bottom: 16px;
+  }
+  .expertise-card h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .expertise-card p {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  @media(max-width:900px) {
+    .expertise-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+    .expertise-card {
+      padding: 24px 20px;
+    }
+  }
+  @media(max-width:640px) {
+    .expertise-grid {
+      grid-template-columns: 1fr;
+      border-radius: var(--radius);
+    }
+    .expertise-card {
+      padding: 20px 16px;
+    }
+    .expertise-card h3 {
+      font-size: 16px;
+    }
+    .expertise-card p {
+      font-size: 13px;
+    }
+  }
+
+  /* approach timeline */
+  .approach {
+    background: var(--cream);
+  }
+  .timeline {
+    display: flex;
+    gap: 0;
+    position: relative;
+    overflow-x: auto;
+    padding-bottom: 8px;
+  }
+  .tl-step {
+    flex: 1;
+    min-width: 130px;
+    padding: 0 16px 0 0;
+    position: relative;
+  }
+  .tl-step .bar {
+    height: 3px;
+    background: var(--line);
+    border-radius: 3px;
+    margin-bottom: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+  .tl-step .bar::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--green);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .8s var(--ease);
+  }
+  .tl-step.is-visible .bar::after {
+    transform: scaleX(1);
+  }
+  .tl-step .mono {
+    color: var(--forest);
+    margin-bottom: 6px;
+    display: block;
+    font-size: 11px;
+  }
+  .tl-step h4 {
+    font-family: 'Sora';
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  @media(max-width:900px) {
+    .timeline {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .tl-step {
+      padding-right: 0;
+      min-width: unset;
+    }
+    .tl-step .bar {
+      margin-bottom: 12px;
+    }
+  }
+
+  /* incubation cta band */
+  .incub {
+    background: linear-gradient(120deg, #0E3B2C, #164C39);
+    color: #fff;
+    border-radius: 20px;
+    margin: 0 16px;
+    padding: 50px 32px;
+    position: relative;
+    overflow: hidden;
+  }
+  .incub-inner {
+    max-width: 640px;
+    position: relative;
+    z-index: 2;
+  }
+  .incub h2 {
+    font-size: clamp(24px, 3.6vw, 38px);
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+  .incub ul {
+    list-style: none;
+    margin: 20px 0 28px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+  }
+  .incub li {
+    font-size: 14px;
+    color: rgba(255, 255, 255, .82);
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+  }
+  .incub li::before {
+    content: '→';
+    color: var(--green);
+    flex-shrink: 0;
+  }
+  .incub-ring {
+    display: none;
+  }
+
+  @media(max-width:900px) {
+    .incub {
+      margin: 0 16px;
+      padding: 40px 24px;
+      border-radius: 16px;
+    }
+    .incub ul {
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+    .incub h2 {
+      font-size: 26px;
+    }
+    .incub li {
+      font-size: 13px;
+    }
+  }
+  @media(max-width:640px) {
+    .incub {
+      padding: 32px 20px;
+      margin: 0 12px;
+      border-radius: 14px;
+    }
+    .incub h2 {
+      font-size: 22px;
+    }
+    .incub ul {
+      gap: 6px;
+    }
+    .incub li {
+      font-size: 12px;
+    }
+    .incub .btn {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+
+  /* programmes */
+  .prog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .prog-card {
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 28px 24px;
+    background: var(--white);
+    transition: box-shadow .35s var(--ease), transform .35s var(--ease);
+  }
+  .prog-card:hover {
+    box-shadow: 0 20px 50px -20px rgba(14, 59, 44, .25);
+    transform: translateY(-4px);
+  }
+  .prog-card .mono {
+    color: var(--green);
+    margin-bottom: 14px;
+    display: block;
+    font-size: 11px;
+  }
+  .prog-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .prog-card p {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+  .prog-card a {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--forest);
+    display: inline-flex;
+    gap: 6px;
+    align-items: center;
+  }
+
+  @media(max-width:900px) {
+    .prog-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+    .prog-card {
+      padding: 24px 20px;
+    }
+  }
+  @media(max-width:640px) {
+    .prog-grid {
+      grid-template-columns: 1fr;
+    }
+    .prog-card {
+      padding: 20px 16px;
+    }
+    .prog-card h3 {
+      font-size: 17px;
+    }
+    .prog-card p {
+      font-size: 13px;
+    }
+  }
+
+  /* impact */
+  .impact {
+    background: var(--white);
+  }
+  .impact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .impact-card {
+    padding: 28px 24px;
+    border-radius: var(--radius);
+    background: var(--cream);
+    text-align: center;
+  }
+  .impact-card .num {
+    font-family: 'Sora';
+    font-weight: 800;
+    font-size: 34px;
+    color: var(--forest);
+  }
+  .impact-card .lbl {
+    margin-top: 6px;
+    font-size: 14px;
+    color: var(--gray);
+  }
+
+  @media(max-width:900px) {
+    .impact-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media(max-width:560px) {
+    .impact-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .impact-card {
+      padding: 20px 16px;
+    }
+    .impact-card .num {
+      font-size: 28px;
+    }
+    .impact-card .lbl {
+      font-size: 12px;
+    }
+  }
+  @media(max-width:400px) {
+    .impact-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* realisations */
+  .real-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .real-card {
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--white);
+    border: 1px solid var(--line);
+  }
+  .real-img {
+    aspect-ratio: 4/3;
+    position: relative;
+    overflow: hidden;
+  }
+  .real-img img {
+    transition: transform .3s ease;
+  }
+  .real-img:hover img {
+    transform: scale(1.05);
+  }
+  .real-body {
+    padding: 18px 20px 22px;
+  }
+  .real-body .mono {
+    color: var(--green);
+    margin-bottom: 6px;
+    display: block;
+    font-size: 11px;
+  }
+  .real-body h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .real-body p {
+    font-size: 13px;
+    margin: 0;
+  }
+
+  @media(max-width:900px) {
+    .real-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media(max-width:560px) {
+    .real-grid {
+      grid-template-columns: 1fr;
+    }
+    .real-body {
+      padding: 14px 16px 18px;
+    }
+    .real-body h4 {
+      font-size: 15px;
+    }
+  }
+
+  /* actus */
+  .actus {
+    background: var(--cream);
+  }
+  .actu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .actu-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--line);
+  }
+  .actu-img {
+    height: 160px;
+    overflow: hidden;
+  }
+  .actu-img img {
+    transition: transform .3s ease;
+  }
+  .actu-img:hover img {
+    transform: scale(1.05);
+  }
+  .actu-body {
+    padding: 18px 20px 22px;
+  }
+  .actu-body .mono {
+    color: var(--forest);
+    margin-bottom: 8px;
+    display: block;
+    font-size: 11px;
+  }
+  .actu-body h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    line-height: 1.35;
+  }
+  .actu-body p {
+    font-size: 13px;
+    margin: 0;
+  }
+
+  @media(max-width:900px) {
+    .actu-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media(max-width:640px) {
+    .actu-grid {
+      grid-template-columns: 1fr;
+    }
+    .actu-body {
+      padding: 14px 16px 18px;
+    }
+    .actu-body h4 {
+      font-size: 15px;
+    }
+  }
+
+  /* team */
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  .team-card .avatar {
+    aspect-ratio: 1;
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin-bottom: 14px;
+    background: linear-gradient(150deg, #E7EFE9, #CFE4D8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--forest);
+    font-family: 'Sora';
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .team-card .avatar img {
+    object-fit: cover;
+  }
+  .team-card h4 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
+  .team-card p {
+    font-size: 13px;
+    margin: 0;
+  }
+
+  @media(max-width:900px) {
+    .team-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media(max-width:480px) {
+    .team-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .team-card h4 {
+      font-size: 14px;
+    }
+    .team-card p {
+      font-size: 12px;
+    }
+  }
+
+  /* partners marquee */
+  .partners {
+    background: var(--white);
+    overflow: hidden;
+    padding: 40px 0;
+  }
+  .marquee-wrapper {
+    overflow: hidden;
+    width: 100%;
+  }
+  .marquee {
+    display: flex;
+    gap: 50px;
+    width: max-content;
+    animation: scroll 25s linear infinite;
+    align-items: center;
+  }
+  .marquee img {
+    height: 45px;
+    width: auto;
+    opacity: 0.55;
+    display: block;
+  }
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @media(max-width:640px) {
+    .partners {
+      padding: 30px 0;
+    }
+    .marquee {
+      gap: 30px;
+    }
+    .marquee img {
+      height: 35px;
+    }
+  }
+  @media(max-width:480px) {
+    .marquee img {
+      height: 28px;
+    }
+    .marquee {
+      gap: 20px;
+    }
+  }
+
+  /* testimonials */
+  .testi {
+    background: var(--forest);
+    color: #fff;
+  }
+  .testi-card {
+    background: rgba(255, 255, 255, .06);
+    border: 1px solid var(--line-onDark);
+    border-radius: var(--radius);
+    padding: 32px 24px;
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .testi-card p {
+    color: rgba(255, 255, 255, .8);
+    font-style: italic;
+    font-size: 17px;
+    font-family: 'Sora';
+    font-weight: 400;
+  }
+
+  @media(max-width:640px) {
+    .testi-card {
+      padding: 24px 16px;
+    }
+    .testi-card p {
+      font-size: 15px;
+    }
+  }
+
+  /* ===== CONTACT AVEC CARTE ===== */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    gap: 50px;
+  }
+  .contact-info .mono {
+    color: var(--forest);
+    margin-bottom: 14px;
+    display: block;
+    font-size: 11px;
+  }
+  .contact-info h2 {
+    font-size: clamp(24px, 3.2vw, 36px);
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  .contact-list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .contact-list .row {
+    display: flex;
+    gap: 12px;
+    font-size: 14px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .contact-list .row .k {
+    color: var(--gray);
+    width: 100px;
+    flex-shrink: 0;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-family: 'IBM Plex Mono';
+  }
+  form {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 32px;
+  }
+  .field-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+  .field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .field label {
+    font-size: 11px;
+    font-family: 'IBM Plex Mono';
+    color: var(--gray);
+    text-transform: uppercase;
+    letter-spacing: .06em;
+  }
+  .field input,
+  .field select,
+  .field textarea {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-family: 'Inter';
+    font-size: 14px;
+    color: var(--ink);
+    background: var(--cream);
+    outline: none;
+    transition: border-color .25s var(--ease);
+    width: 100%;
+  }
+  .field input:focus,
+  .field select:focus,
+  .field textarea:focus {
+    border-color: var(--forest);
+  }
+  .field.full {
+    grid-column: 1/-1;
+  }
+
+  /* ===== CARTE GOOGLE MAPS ===== */
+  .map-container {
+    margin-top: 20px;
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--line);
+    height: 220px;
+  }
+  .map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+  }
+
+  @media(max-width:900px) {
+    .contact-grid {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    .field-row {
+      grid-template-columns: 1fr;
+    }
+    .map-container {
+      height: 200px;
+    }
+    form {
+      padding: 24px;
+    }
+  }
+  @media(max-width:640px) {
+    .contact-grid {
+      gap: 30px;
+    }
+    .contact-list .row {
+      font-size: 13px;
+    }
+    .contact-list .row .k {
+      width: 80px;
+      font-size: 10px;
+    }
+    form {
+      padding: 20px 16px;
+    }
+    .field input,
+    .field select,
+    .field textarea {
+      font-size: 13px;
+      padding: 8px 12px;
+    }
+    .map-container {
+      height: 160px;
+    }
+  }
+
+  /* ===== WHATSAPP DANS LE FOOTER ===== */
+  .footer-whatsapp {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--whatsapp);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 13px;
+    transition: transform .3s var(--ease), box-shadow .3s var(--ease);
+    margin-top: 10px;
+  }
+  .footer-whatsapp:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+  }
+  .footer-whatsapp svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+  }
+
+  @media(max-width:640px) {
+    .footer-whatsapp {
+      font-size: 12px;
+      padding: 8px 16px;
+    }
+  }
+
+  /* footer */
+  footer {
+    background: #0A2A20;
+    color: rgba(255, 255, 255, .7);
+    padding: 50px 0 24px;
+  }
+  .foot-grid {
+    display: grid;
+    grid-template-columns: 1.4fr repeat(4, 1fr);
+    gap: 30px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--line-onDark);
+  }
+  .foot-col h5 {
+    font-family: 'IBM Plex Mono';
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: var(--green-soft);
+    margin-bottom: 14px;
+  }
+  .foot-col a,
+  .foot-col p {
+    display: block;
+    font-size: 13px;
+    color: rgba(255, 255, 255, .62);
+    margin-bottom: 8px;
+  }
+  .foot-brand {
+    font-family: 'Sora';
+    font-weight: 700;
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 12px;
+  }
+  .foot-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, .45);
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  @media(max-width:900px) {
+    .foot-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+  }
+  @media(max-width:640px) {
+    footer {
+      padding: 40px 0 20px;
+    }
+    .foot-grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding-bottom: 24px;
+    }
+    .foot-col a,
+    .foot-col p {
+      font-size: 12px;
+    }
+    .foot-brand {
+      font-size: 15px;
+    }
+    .foot-bottom {
+      flex-direction: column;
+      text-align: center;
+      font-size: 11px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header id="siteHeader">
+  <nav class="wrap">
+    <a href="#" class="logo">
+      <img src="LOGO.jpg" alt="IMPACT SAFI GROUP">
+      IMPACT SAFI GROUP
+    </a>
+    <ul class="nav-links">
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#expertises">Expertises</a></li>
+      <li><a href="#programmes">Programmes</a></li>
+      <li><a href="#impact">Impact</a></li>
+      <li><a href="#actualites">Actualités</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#contact" class="btn btn-primary">Démarrer</a>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<!-- ===== MOBILE MENU OVERLAY ===== -->
+<div class="mobile-menu-overlay" id="mobileMenu">
+  <a href="#accueil" class="menu-link">Accueil</a>
+  <a href="#apropos" class="menu-link">À propos</a>
+  <a href="#expertises" class="menu-link">Expertises</a>
+  <a href="#programmes" class="menu-link">Programmes</a>
+  <a href="#impact" class="menu-link">Impact</a>
+  <a href="#actualites" class="menu-link">Actualités</a>
+  <a href="#contact" class="menu-link">Contact</a>
+  <a href="#contact" class="btn btn-light" style="margin-top:10px;">Démarrer un projet</a>
+</div>
+
+<!-- ===== HERO AVEC SLIDER ===== -->
+<section class="hero" id="accueil">
+
+  <div class="hero-slider">
+    <div class="hero-slide slide-1 active"></div>
+    <div class="hero-slide slide-2"></div>
+    <div class="hero-slide slide-3"></div>
+    <div class="hero-slide slide-4"></div>
+  </div>
+
+  <div class="hero-dots">
+    <button class="hero-dot active" data-index="0" aria-label="Image 1"></button>
+    <button class="hero-dot" data-index="1" aria-label="Image 2"></button>
+    <button class="hero-dot" data-index="2" aria-label="Image 3"></button>
+    <button class="hero-dot" data-index="3" aria-label="Image 4"></button>
+  </div>
+
+  <div class="wrap hero-inner">
+    <div class="hero-content">
+      <div class="eyebrow mono">Korhogo, Côte d'Ivoire — Incubateur &amp; accélérateur</div>
+      <h1>Transformer les <em>idées</em><br>en impact.</h1>
+      <p class="lead">IMPACT SAFI GROUP accompagne les entrepreneurs, entreprises et porteurs de projets dans leur développement, leur transformation et leur recherche de nouvelles opportunités.</p>
+      <div class="hero-actions">
+        <a href="#apropos" class="btn btn-light">Découvrir ISG</a>
+        <a href="#contact" class="btn" style="border:1px solid rgba(255,255,255,.35); color:#fff;">Démarrer un projet</a>
+      </div>
+      <div class="hero-slogan">« Une infinie innovation pour votre satisfaction ! »</div>
+    </div>
+    <div class="infinity-wrap">
+      <svg class="infinity-svg" viewBox="0 0 400 220">
+        <path class="infinity-path dim" d="M100,110 C100,60 160,60 200,110 C240,160 300,160 300,110 C300,60 240,60 200,110 C160,160 100,160 100,110 Z"/>
+        <path class="infinity-path" d="M100,110 C100,60 160,60 200,110 C240,160 300,160 300,110 C300,60 240,60 200,110 C160,160 100,160 100,110 Z"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="scroll-cue">
+    <span class="mono" style="color:rgba(255,255,255,.5)">Scroll</span>
+    <div class="line"></div>
+  </div>
+</section>
+
+<!-- INTRO -->
+<section class="intro" id="apropos">
+  <div class="wrap intro-grid">
+    <div data-reveal>
+      <div class="mono" style="color:var(--forest); margin-bottom:14px;">Qui sommes-nous</div>
+      <h2>Nous transformons les possibilités en opportunités.</h2>
+      <p>Depuis <strong>2022</strong>, IMPACT SAFI GROUP accompagne entrepreneurs, entreprises et institutions dans leur conseil, leur incubation et leur transformation digitale, à Korhogo et dans toute la Côte d'Ivoire. Notre rôle : révéler le potentiel de chaque projet et le structurer jusqu'à l'impact réel.</p>
+      <p><span class="placeholder">[CONTENU À VALIDER PAR ISG]</span> — présentation détaillée, mission et valeurs à confirmer avec la direction.</p>
+      <a href="#expertises" class="btn btn-outline" style="margin-top:8px; border-color:var(--line); color:var(--ink);">Découvrir notre histoire</a>
+    </div>
+    <div class="intro-visual" data-reveal>
+      <img src="2.png" alt="Équipe d'Impact Safi Group en réunion">
+      <div class="tag">« Une infinie innovation pour votre satisfaction ! »</div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="wrap">
+    <div class="stats-grid">
+      <div class="stat" data-reveal><div class="num" data-count="2022" data-static="true">2022</div><div class="lbl">Année de création</div></div>
+      <div class="stat" data-reveal><div class="num" data-count="0" data-suffix="+">[XX]</div><div class="lbl">Entrepreneurs accompagnés</div></div>
+      <div class="stat" data-reveal><div class="num" data-count="0" data-suffix="+">[XX]</div><div class="lbl">Projets accompagnés</div></div>
+      <div class="stat" data-reveal><div class="num" data-count="0" data-suffix="+">[XX]</div><div class="lbl">Partenaires</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERTISES -->
+<section id="expertises">
+  <div class="wrap">
+    <div class="section-head-center" data-reveal>
+      <span class="mono">Nos expertises</span>
+      <h2>Un accompagnement complet, de l'idée à la performance.</h2>
+      <p>Six domaines d'intervention pensés pour couvrir l'ensemble du parcours d'un porteur de projet ou d'une entreprise en croissance.</p>
+    </div>
+    <div class="expertise-grid" data-reveal>
+      <div class="expertise-card"><span class="exp-num">01</span><h3>Conseil &amp; stratégie</h3><p>Accompagnement stratégique des entreprises et organisations.</p></div>
+      <div class="expertise-card"><span class="exp-num">02</span><h3>Incubation</h3><p>Accompagnement des porteurs de projets et entrepreneurs.</p></div>
+      <div class="expertise-card"><span class="exp-num">03</span><h3>Accélération</h3><p>Aider les projets à franchir un nouveau niveau de développement.</p></div>
+      <div class="expertise-card"><span class="exp-num">04</span><h3>Transformation digitale</h3><p>Accompagner les organisations dans leur transformation numérique.</p></div>
+      <div class="expertise-card"><span class="exp-num">05</span><h3>Formation &amp; renforcement</h3><p>Développer les compétences nécessaires à la performance.</p></div>
+      <div class="expertise-card"><span class="exp-num">06</span><h3>Accompagnement entrepreneurial</h3><p>Structurer et développer durablement les activités.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- APPROACH -->
+<section class="approach">
+  <div class="wrap">
+    <div class="section-head-center" data-reveal>
+      <span class="mono">Notre méthode</span>
+      <h2>De l'idée à l'impact.</h2>
+      <p>Un parcours structuré en six étapes, conçu pour transformer une intuition entrepreneuriale en résultat mesurable.</p>
+    </div>
+    <div class="timeline" data-reveal>
+      <div class="tl-step"><div class="bar"></div><span class="mono">01</span><h4>Idéation</h4></div>
+      <div class="tl-step"><div class="bar"></div><span class="mono">02</span><h4>Diagnostic</h4></div>
+      <div class="tl-step"><div class="bar"></div><span class="mono">03</span><h4>Incubation</h4></div>
+      <div class="tl-step"><div class="bar"></div><span class="mono">04</span><h4>Accélération</h4></div>
+      <div class="tl-step"><div class="bar"></div><span class="mono">05</span><h4>Accompagnement</h4></div>
+      <div class="tl-step"><div class="bar"></div><span class="mono">06</span><h4>Impact</h4></div>
+    </div>
+  </div>
+</section>
+
+<!-- INCUBATION BAND -->
+<section style="padding-top:0; padding-bottom:0;">
+  <div class="incub" data-reveal>
+    <div class="incub-inner">
+      <span class="mono" style="color:var(--green-soft);">Incubation</span>
+      <h2>Votre idée mérite de devenir une réalité.</h2>
+      <p style="color:rgba(255,255,255,.7);">ISG crée un environnement où les porteurs de projets peuvent structurer leurs idées, développer leurs compétences et accéder à de nouvelles opportunités.</p>
+      <ul>
+        <li>Structuration des idées</li>
+        <li>Coaching &amp; mentorat</li>
+        <li>Renforcement des capacités</li>
+        <li>Accès à des opportunités et financements</li>
+      </ul>
+      <a href="#contact" class="btn btn-light">Rejoindre notre programme</a>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAMMES -->
+<section id="programmes">
+  <div class="wrap">
+    <div class="section-head-center" data-reveal>
+      <span class="mono">Écosystème</span>
+      <h2>Nos programmes &amp; initiatives.</h2>
+      <p>Des initiatives dédiées, chacune répondant à un besoin spécifique de l'écosystème entrepreneurial.</p>
+    </div>
+    <div class="prog-grid" data-reveal>
+      <div class="prog-card">
+        <span class="mono">Impact Heritage</span>
+        <h3>Artisanat &amp; patrimoine</h3>
+        <p>Valorisation du savoir-faire local et accompagnement économique des artisans. <span class="placeholder">[À CONFIRMER]</span></p>
+        <a href="#">Découvrir le programme →</a>
+      </div>
+      <div class="prog-card">
+        <span class="mono">Piko</span>
+        <h3>Initiative technologique</h3>
+        <p>Une initiative associée à l'écosystème ISG. Détails et fonctionnalités <span class="placeholder">[À CONFIRMER]</span>.</p>
+        <a href="#">Découvrir le programme →</a>
+      </div>
+      <div class="prog-card">
+        <span class="mono">Safe+</span>
+        <h3>Initiative à découvrir</h3>
+        <p>Programme en cours de structuration. Informations complètes <span class="placeholder">[À CONFIRMER]</span>.</p>
+        <a href="#">Découvrir le programme →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- IMPACT -->
+<section class="impact" id="impact">
+  <div class="wrap">
+    <div class="section-head-center" data-reveal>
+      <span class="mono">Résultats</span>
+      <h2>Notre impact.</h2>
+      <p>Des indicateurs qui mesurent la portée réelle de notre accompagnement — mis à jour au fil des programmes.</p>
+    </div>
+    <div class="impact-grid" data-reveal>
+      <div class="impact-card"><div class="num">[XX]</div><div class="lbl">Entrepreneurs accompagnés</div></div>
+      <div class="impact-card"><div class="num">[XX]</div><div class="lbl">Projets accompagnés</div></div>
+      <div class="impact-card"><div class="num">[XX]</div><div class="lbl">Formations organisées</div></div>
+      <div class="impact-card"><div class="num">[XX]</div><div class="lbl">Emplois créés</div></div>
+      <div class="impact-card"><div class="num">[XX]</div><div class="lbl">Partenaires</div></div>
+      <div class="impact-card"><div class="num">[XX]</div><div class="lbl">Communautés touchées</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- REALISATIONS -->
+<section>
+  <div class="wrap">
+    <div class="section-head-center" data-reveal>
+      <span class="mono">Portfolio</span>
+      <h2>Nos réalisations.</h2>
+      <p>Une sélection de projets accompagnés par ISG. Contenus et visuels à remplacer par les réalisations réelles.</p>
+    </div>
+    <div class="real-grid" data-reveal>
+      <div class="real-card">
+        <div class="real-img">
+          <img src="8.png" alt="Projet Impact Heritage">
+        </div>
+        <div class="real-body"><span class="mono">Incubation — 2025</span><h4>Impact Heritage</h4><p>Valorisation de l'artisanat et du patrimoine ivoirien.</p></div>
+      </div>
+      <div class="real-card">
+        <div class="real-img">
+          <img src="11.png" alt="Projet technologique">
+        </div>
+        <div class="real-body"><span class="mono">Incubation — 2025</span><h4>Piko</h4><p>Initiative technologique pour l'innovation locale.</p></div>
+      </div>
+      <div class="real-card">
+        <div class="real-img">
+          <img src="3.png" alt="Projet de conseil">
+        </div>
+        <div class="real-body"><span class="mono">Conseil — 2024</span><h4>Stratégie d'entreprise</h4><p>Accompagnement stratégique pour une croissance durable.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACTUALITES -->
+<section class="actus" id="actualites">
+  <div class="wrap">
+    <div class="section-head-center" data-reveal>
+      <span class="mono">Actualités &amp; opportunités</span>
+      <h2>Ce qui se passe chez ISG.</h2>
+      <p>Articles, événements et appels à candidatures — à publier au fil de l'activité de l'organisation.</p>
+    </div>
+    <div class="actu-grid" data-reveal>
+      <div class="actu-card">
+        <div class="actu-img">
+          <img src="5.png" alt="Session de formation">
+        </div>
+        <div class="actu-body"><span class="mono">Appel à candidatures</span><h4>Programme d'incubation</h4><p>Inscrivez-vous avant le 15 mai.</p></div>
+      </div>
+      <div class="actu-card">
+        <div class="actu-img">
+          <img src="7.png" alt="Atelier innovation">
+        </div>
+        <div class="actu-body"><span class="mono">Formation</span><h4>Atelier transformation digitale</h4><p>Prochaine session à Korhogo.</p></div>
+      </div>
+      <div class="actu-card">
+        <div class="actu-img">
+          <img src="13.png" alt="Événement ISG">
+        </div>
+        <div class="actu-body"><span class="mono">Événement</span><h4>Rencontre des entrepreneurs</h4><p>Réseautage et partage d'expériences.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section>
+  <div class="wrap">
+    <div class="section-head-center" data-reveal>
+      <span class="mono">L'équipe</span>
+      <h2>Une équipe engagée pour l'impact.</h2>
+      <p>Noms, fonctions et photos à intégrer après validation par la direction d'ISG.</p>
+    </div>
+    <div class="team-grid" data-reveal>
+      <div class="team-card">
+        <div class="avatar">
+          <img src="10.png" alt="Membre de l'équipe">
+        </div>
+        <h4>Nom du membre</h4><p>Fonction</p>
+      </div>
+      <div class="team-card">
+        <div class="avatar">
+          <img src="9.png" alt="Membre de l'équipe">
+        </div>
+        <h4>Nom du membre</h4><p>Fonction</p>
+      </div>
+      <div class="team-card">
+        <div class="avatar">
+          <img src="13.png" alt="Membre de l'équipe">
+        </div>
+        <h4>Nom du membre</h4><p>Fonction</p>
+      </div>
+      <div class="team-card">
+        <div class="avatar">
+          <img src="6.png" alt="Membre de l'équipe">
+        </div>
+        <h4>Nom du membre</h4><p>Fonction</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PARTNERS -->
+<section class="partners">
+  <div class="wrap" style="margin-bottom:24px;" data-reveal>
+    <div class="section-head-center" style="margin-bottom:0;">
+      <span class="mono" style="color:var(--forest);">Ils nous font confiance</span>
+    </div>
+  </div>
+  <div class="marquee-wrapper">
+    <div class="marquee">
+      <img src="EKDS.png" alt="Partenaire EKDS">
+      <img src="STB 1.jpg" alt="Partenaire STB">
+      <img src="MTK.png" alt="Partenaire MTK">
+      <img src="UTRAKO.jpg" alt="Partenaire UTRAKO">
+      <img src="STB.jpg" alt="Partenaire STB">
+      <img src="transi.png" alt="Partenaire Transi">
+      <img src="EKDS.png" alt="Partenaire EKDS">
+      <img src="STB 1.jpg" alt="Partenaire STB">
+      <img src="MTK.png" alt="Partenaire MTK">
+      <img src="UTRAKO.jpg" alt="Partenaire UTRAKO">
+      <img src="STB.jpg" alt="Partenaire STB">
+      <img src="transi.png" alt="Partenaire Transi">
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testi">
+  <div class="wrap" data-reveal>
+    <div class="testi-card">
+      <p>« Témoignage à intégrer après validation par ISG. »</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT AVEC CARTE ===== -->
+<section id="contact">
+  <div class="wrap contact-grid">
+    <div class="contact-info" data-reveal>
+      <span class="mono">Contact</span>
+      <h2>Parlons de votre projet.</h2>
+      <p>Une question, un projet à confier ou une candidature à un programme ? Notre équipe vous répond rapidement.</p>
+      <div class="contact-list">
+        <div class="row"><span class="k">Adresse</span><span>Korhogo, Côte d'Ivoire</span></div>
+        <div class="row"><span class="k">Téléphone</span><span>+225 07 00 00 00</span></div>
+        <div class="row"><span class="k">Email</span><span>contact@impactsafigroup.com</span></div>
+        <div class="row"><span class="k">WhatsApp</span><span>+225 07 00 00 00</span></div>
+      </div>
+
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126828.05613792462!2d-5.691859!3d9.424223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfb608a0b7f2ff55%3A0x3e6b8b2f6a7f4d1d!2sKorhogo%2C%20C%C3%B4te%20d'Ivoire!5e0!3m2!1sfr!2sfr!4v1700000000000" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+
+    <form data-reveal onsubmit="event.preventDefault(); alert('Formulaire de démonstration — à connecter au back-office ISG.');">
+      <div class="field-row">
+        <div class="field"><label>Nom</label><input type="text" placeholder="Votre nom" required></div>
+        <div class="field"><label>Entreprise</label><input type="text" placeholder="Nom de l'entreprise"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Téléphone</label><input type="tel" placeholder="+225 ..."></div>
+        <div class="field"><label>Email</label><input type="email" placeholder="vous@exemple.com" required></div>
+      </div>
+      <div class="field-row">
+        <div class="field full">
+          <label>Type de demande</label>
+          <select>
+            <option>Conseil</option><option>Incubation</option><option>Formation</option>
+            <option>Transformation digitale</option><option>Partenariat</option><option>Programme</option><option>Autre</option>
+          </select>
+        </div>
+      </div>
+      <div class="field-row">
+        <div class="field full"><label>Message</label><textarea rows="4" placeholder="Décrivez votre projet ou votre demande"></textarea></div>
+      </div>
+      <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Envoyer ma demande</button>
+    </form>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-col">
+        <div class="foot-brand">IMPACT SAFI GROUP</div>
+        <p>Une infinie innovation pour votre satisfaction ! Conseil, incubation et transformation digitale à Korhogo, Côte d'Ivoire.</p>
+      </div>
+      <div class="foot-col"><h5>Navigation</h5><a href="#accueil">Accueil</a><a href="#apropos">À propos</a><a href="#expertises">Expertises</a><a href="#contact">Contact</a></div>
+      <div class="foot-col"><h5>Programmes</h5><a href="#programmes">Impact Heritage</a><a href="#programmes">Piko</a><a href="#programmes">Safe+</a></div>
+      <div class="foot-col"><h5>Ressources</h5><a href="#actualites">Actualités</a><a href="#">Mentions légales</a><a href="#">Confidentialité</a></div>
+      <div class="foot-col"><h5>Suivez-nous</h5><a href="#">LinkedIn</a><a href="#">Facebook</a><a href="#">Instagram</a></div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 IMPACT SAFI GROUP. Tous droits réservés.</span>
+      <span>Maquette réalisée par BAK Services</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== BOUTON WHATSAPP FLOTTANT ===== -->
+<a href="https://wa.me/22507000000?text=Bonjour%20ISG%2C%20je%20souhaite%20avoir%20plus%20d%27informations" 
+   target="_blank" 
+   class="whatsapp-float" 
+   aria-label="Contactez-nous sur WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script>
+  // ===== HEADER SCROLL =====
+  const header = document.getElementById('siteHeader');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 40);
+  });
+
+  // ===== HAMBURGER MENU =====
+  const hamburgerBtn = document.getElementById('hamburgerBtn');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const menuLinks = document.querySelectorAll('.menu-link');
+
+  hamburgerBtn.addEventListener('click', () => {
+    hamburgerBtn.classList.toggle('active');
+    mobileMenu.classList.toggle('active');
+    document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+  });
+
+  menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      hamburgerBtn.classList.remove('active');
+      mobileMenu.classList.remove('active');
+      document.body.style.overflow = '';
+    });
+  });
+
+  // ===== REVEAL ON SCROLL =====
+  const revealEls = document.querySelectorAll('[data-reveal], .tl-step');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('is-visible');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+
+  // ===== ANIMATED COUNTERS =====
+  const counters = document.querySelectorAll('.num[data-count]');
+  const cio = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        if (el.dataset.static) { cio.unobserve(el); return; }
+        // Animation simple
+        const target = parseInt(el.dataset.count);
+        if (target > 0) {
+          let current = 0;
+          const step = Math.ceil(target / 40);
+          const timer = setInterval(() => {
+            current += step;
+            if (current >= target) {
+              el.textContent = target + (el.dataset.suffix || '');
+              clearInterval(timer);
+            } else {
+              el.textContent = current + (el.dataset.suffix || '');
+            }
+          }, 30);
+        }
+        cio.unobserve(el);
+      }
+    });
+  }, { threshold: 0.5 });
+  counters.forEach(el => cio.observe(el));
+
+  // ===== HERO SLIDER =====
+  (function() {
+    const slides = document.querySelectorAll('.hero-slide');
+    const dots = document.querySelectorAll('.hero-dot');
+    let currentIndex = 0;
+    let intervalId = null;
+    const INTERVAL_DELAY = 5000;
+
+    function goToSlide(index) {
+      if (index < 0) index = slides.length - 1;
+      if (index >= slides.length) index = 0;
+
+      slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === index);
+      });
+
+      dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === index);
+      });
+
+      currentIndex = index;
+    }
+
+    function nextSlide() {
+      goToSlide(currentIndex + 1);
+    }
+
+    function startSlider() {
+      if (intervalId) clearInterval(intervalId);
+      intervalId = setInterval(nextSlide, INTERVAL_DELAY);
+    }
+
+    function stopSlider() {
+      if (intervalId) {
+        clearInterval(intervalId);
+        intervalId = null;
+      }
+    }
+
+    dots.forEach((dot, index) => {
+      dot.addEventListener('click', function() {
+        stopSlider();
+        goToSlide(index);
+        startSlider();
+      });
+    });
+
+    const sliderContainer = document.querySelector('.hero-slider');
+    if (sliderContainer) {
+      sliderContainer.addEventListener('mouseenter', stopSlider);
+      sliderContainer.addEventListener('mouseleave', startSlider);
+    }
+
+    startSlider();
+    window.heroSlider = { goToSlide, nextSlide, startSlider, stopSlider };
+  })();
+</script>
+</body>
+</html>
